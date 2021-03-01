@@ -1,8 +1,8 @@
 import axios from "axios";
 
-export const chkConnectToken = (token = "") => {
+export const dummyFunc = () => {
   return axios
-    .post(`/front/api/v2/connect/token`, {token}, {
+    .post(`/front/api/v1`, {}, {
       headers: {
         "Content-Type": "application/json",
       },
